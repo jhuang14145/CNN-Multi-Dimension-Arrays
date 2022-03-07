@@ -9,8 +9,6 @@
 
 #include <cstdlib>   // for rand(), srand()
 #include <ctime>     // for time()
-// Udated 2/3/2022 Added Fully connected layer computation and softmax
-// Modified by Prof. Murali Subbarao, ESE 344
 using namespace std;
 // allocate memory for a 1d vector
 void alloc1d(vector<double>& tn1d, int s1) {
